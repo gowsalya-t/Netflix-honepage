@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.692)), url(./images/netflixbackground.png);
+    /* max-width: 100%; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+header{
+    margin-top: 10px;
+    width: 100%;
+}
+.globe-logo{
+    width: auto;
+    color: white;
+    border: #bbbbbb;
+    background: transparent;
+    
+}
+.language{
+    background-color: rgba(128, 128, 128, 0.103);
+    color: white;
+    width: auto;
+    
+}
+.title-details{
+    margin-top: 15%;
+}
+.head-one{
+    font-family: Times New Roman;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.head-two{
+    font-family: Times New Roman;
+    font-weight:400;
+    font-size: 25px;
+}
+.head-three{
+    font-family: Times New Roman;
+    font-weight: 400;
+    font-size: 25px;
+}
+#exampleFormControlInput1{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.507),rgba(0, 0, 0, 0.438)); */
+    background: linear-gradient(rgba(128, 128, 128, 0.103), rgba(128, 128, 128, 0.055));
+}
+.hr{
+    margin-top: -70px;
+    border: 5px solid gray;
+    border-radius: 2px;
+}
+
+
+.heading{
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 45px;
+        margin-top: 70px;
+    }
+
+.details{
+    color: white;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.hr-one,.hr-two,.hr-three,.hr-three,.hr-four{
+    border: 5px solid gray;
+    border-radius: 2px;
+    max-width: 100%;
+    
+}
+
+.accordion-item{
+    background-color: rgb(20, 19, 19);
+    border-radius: 3px;
+    margin-bottom: 3px;
+    padding: 1px;
+}
+.accordion-button{
+    text-decoration: none;
+    background-color: black;
+    color: #ffffff;
+    font-size: large;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    /* text-wrap: nowrap; */
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.accordion-button:hover{
+    background-color: wheat;
+}
+.accordion-body{
+    color: white;
+}
+.footer{
+    width: 100%;
+    margin-top: 125px;
+    background-color: rgb(0, 0, 0);
+    padding: 70px 0px;
+}
+
+.container{
+    max-width: 1170px;
+
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer-col{
+    width: 25%;
+    padding: 0px 15px;
+}
+.footer-col ul li{
+  margin-bottom: 10px;
+  margin-left: 50%;
+}
+.footer-col ul a{
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+.footer-col ul a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
